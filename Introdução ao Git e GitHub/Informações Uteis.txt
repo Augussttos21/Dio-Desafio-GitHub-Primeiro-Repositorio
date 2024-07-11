@@ -1,0 +1,37 @@
+Comandos para o Git:
+
+dir - Vai apresentar a lista diretórios, contidos na pasta em questão
+cd / - Permite navegar entre as pastas, leva a base do diretório desejado
+cd . . - Retrocede nas pastas selecionadas
+cls - limpa o terminal
+mkdir - cria uma pasta 
+del - deleta os arquivos dentro de uma pasta 
+rmdir /s/q - deleta a pasta (diretório)
+
+ls para listar
+
+ls -a - mostra arquivos ocultos 
+
+git config --global user.email 
+
+git config --global user.name 
+
+git.add * - Como se oficializasse o arquivo dentro do Git 
+
+git commit -m "Mensagem desejada" - "Finaliza" o processo, permitindo que o codigo seja levado ao Github 
+
+git config --list - Para listar os dados do Git
+
+git config --global --unset user.name ou user.email - para apagar o nome ou email cadastrado
+
+git remote add origin "link do GitHub" - para adicionar o repositório remoto, origin é o "apelido" para que o Git puxe a informação
+
+git remote -v - lista os repositórios remotos 
+
+git push origin master - vai enviar de fato a informação para o repositório remoto
+
+git pull origin master - vai puxar do GitHub o ultimo repositório para o pc 
+
+Merge Conflict - Alguem já alterou o código e enviou ao GitHub, enquanto você ainda estava fazendo suas alterações, você deve puxar o repositório ver as mudanças resolver os conflitos e commitar de novo
+
+git clone "link do repositório copiado do GitHub" - Copia o repositório para o meu computador 
